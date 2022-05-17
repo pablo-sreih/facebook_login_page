@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 897.3px;
+}
+
+.global-container{
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+    height: 536px;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+.child-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    height: 496px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 40px;
+}
+
+.sub-container-1{
+    max-width: 548px;
+    padding-right: 32px;
+}
+
+.sub-container-1 .sub-1{
+    height: 54.8px;
+    padding-top: 112px;
+    padding-bottom: 16px;
+}
+
+.sub-container-1 .sub-1 img{
+    margin: -28px;
+}
+
+.sub-container-1 h2{
+    padding-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 28.16px;
+}
+
+.sub-container-2{
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+}
+
+.sub-container-2 .sub-1{
+    display: flex;
+    margin-top: 40px;
+    width: 396px;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);;
+}
+
+.sub-container-2 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container-2 form input{
+    width: 330px;
+    height: 22px;
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #dddfe2;
+    border-style: solid;
+}
+
+.sub-container-2 form input:focus{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1877f2;
+    box-shadow: rgba(51, 143, 255, 0.1);
+}
+
+.sub-container-2 form :nth-child(2){
+    margin-top: 12px;
+}
+
+.sub-container-2 form ::placeholder{
+    font-size: 1.27em;
+    color: #969696;
+    font-weight:lighter;
+}
+
+.sub-container-2 form :nth-child(3){
+    width: 364px;
+    height: 48px;
+    padding: 0px 16px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.sub-container-2 form :nth-child(3){
+    cursor: pointer;
+}
+
+.sub-container-2 form a{
+    display: block;
+    align-self: center;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.sub-container-2 form a:hover{
+    text-decoration: underline;
+}
+
+.sub-container-2 form .separator{
+    border-top: 1px solid #dddfe2;
+    margin: 21px 0px;
+}
+
+.sub-container-2 form :last-child{
+    align-self: center;
+    width: auto;
+    height: 48px;
+    padding: 0px 16px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+
+.sub-container-2 form :last-child:hover{
+    cursor: pointer;
+}
+
+.sub-container-2 .create-page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.sub-container-2 .create-page a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-container-2 .create-page a:hover{
+    text-decoration: underline;
+}
