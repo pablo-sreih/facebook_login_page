@@ -77,17 +77,18 @@ body{
     height: 22px;
     margin-top: 16px;
     padding: 14px 16px;
-    border-radius: 5px;
+    border-radius: 6px;
     border-width: 1px;
     border-color: #dddfe2;
     border-style: solid;
 }
 
 .sub-container-2 form input:focus{
+    outline: none;
     border-style: solid;
     border-width: 1px;
     border-color: #1877f2;
-    box-shadow: rgba(51, 143, 255, 0.1);
+    box-shadow: 0 0 4px rgba(51, 143, 255, 0.4);
 }
 
 .sub-container-2 form :nth-child(2){
