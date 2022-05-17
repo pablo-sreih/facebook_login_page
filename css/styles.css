@@ -89,6 +89,7 @@ body{
     border-width: 1px;
     border-color: #1877f2;
     box-shadow: 0 0 4px rgba(51, 143, 255, 0.4);
+    caret-color: #1877f2;
 }
 
 .sub-container-2 form :nth-child(2){
@@ -99,6 +100,10 @@ body{
     font-size: 1.27em;
     color: #969696;
     font-weight:lighter;
+}
+
+.sub-container-2 form input:focus::placeholder{
+    color: rgba(150, 150, 150, 0.6);
 }
 
 .sub-container-2 form :nth-child(3){
