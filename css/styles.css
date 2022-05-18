@@ -81,6 +81,7 @@ body{
     border-width: 1px;
     border-color: #dddfe2;
     border-style: solid;
+    font-size: 16px;
 }
 
 .sub-container-2 form input:focus{
@@ -97,7 +98,6 @@ body{
 }
 
 .sub-container-2 form ::placeholder{
-    font-size: 1.27em;
     color: #969696;
     font-weight:lighter;
 }
